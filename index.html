@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>pastaya's site</title>
+  </head>
+  <body>
+    <p>hello site in progress</p>
+    <p>designing the site soon</p>
+    <p>i am the real pastaya on discord no fake</p>
+    <p>bye</p>
+
+    
+      <button
+        type="button"
+        name="nyabtn"
+        id="nyabtn"
+        class="button"
+        onclick="btnClicked()"
+      >
+        nya!
+      </button>
+    
+
+    <!-- real nya count -->
+    <p id="counterElement">nya!: <font id="counterNum">0</font></p>
+
+    <script type="text/javascript">
+      let clickCount = 0;
+      function btnClicked() {
+        console.log('btnClicked!');
+        var numElement = document.getElementById('counterNum');
+            numElement.innerHTML = clickCount++;
+      }
+    </script>
+  </body>
+</html>
