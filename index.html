@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8" /> <!-- arrghhh is that a trailing slash -->
     <title>pastaya's site</title>
+    <style>
+      /* i should think about learning css */
+    </style>
   </head>
   <body>
-    <p>hello site in progress</p>
-    <p>designing the site soon</p>
-    <p>i am the real pastaya on discord no fake</p>
-    <p>bye</p>
-
-    
+    <h1>pastaya's website</h1>
+    <h2>i am pastaya, i do coding</h2>
+    <h3>this is my website, and you should pls check out the <a href="https://github.com/pastadudes/pastaya.net">github</a> repo to fix some stuff</h3>
+    <!-- very cool button nya! -->
+    <div>
       <button
         type="button"
         name="nyabtn"
@@ -20,17 +22,17 @@
       >
         nya!
       </button>
+      
+      <!-- real nya count -->
+      <p id="counterElement">nya!: <span id="counterNum">0</span></p>
+    </div>
     
-
-    <!-- real nya count -->
-    <p id="counterElement">nya!: <font id="counterNum">0</font></p>
-
     <script type="text/javascript">
       let clickCount = 0;
       function btnClicked() {
         console.log('btnClicked!');
         var numElement = document.getElementById('counterNum');
-            numElement.innerHTML = clickCount++;
+        numElement.textContent = ++clickCount;  // more click count plsss
       }
     </script>
   </body>
