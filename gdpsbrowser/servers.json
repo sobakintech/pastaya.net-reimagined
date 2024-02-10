@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Geometry Dash",
+    "link": "https://store.steampowered.com/app/322170/Geometry_Dash/",
+    "author": "RobTop",
+    "authorLink": "https://www.youtube.com/channel/UCz_yk8mDSAnxJq0ar66L4sw",
+    "id": "robtop",
+    "endpoint": "http://www.boomlings.com/database/",
+    "timestampSuffix": " ago",
+    "demonList": "https://pointercrate.com/",
+    "downloadsDisabled": false,
+    "pinned": false
+  },
+
+  {
+    "name": "GDPS All Admin",
+    "link": "https://www.mediafire.com/file/urwpgpr95pomrtr/GDPS_ALL_ADMIN_2.2.zip/file",
+    "author": "disus",
+    "authorLink": "",
+    "id": "",
+    "endpoint": "http://disusgdps.5v.pl/gdalladmin/database/",
+    "timestampSuffix": " ago",
+    "demonList": "",
+    "downloadsDisabled": false,
+    "pinned": true
+  }
+
+]
