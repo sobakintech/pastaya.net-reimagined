@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" /> <!-- arrghhh is that a trailing slash -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <!-- arrghhh is that a trailing slash -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>pastaya's site</title>
     <style>
       /* i should think about learning css */
     </style>
   </head>
   <body>
-    <img src="imgs/pastaya.net.png" width="400" height="100" alt="the icon of pastaya.net">
+    <img
+      src="imgs/pastaya.net.png"
+      width="400"
+      height="100"
+      alt="the icon of pastaya.net"
+    />
     <h1>pastaya's website</h1>
     <h2>i am pastaya, i do coding</h2>
-    <h3>this is my website, and you should pls check out the <a href="https://github.com/pastadudes/pastaya.net">github</a> repo to fix some stuff</h3>
+    <h3>
+      this is my website, and you should pls check out the
+      <a href="https://github.com/pastadudes/pastaya.net">github</a> repo to fix
+      some stuff
+    </h3>
     <!-- very cool button nya! -->
-    <div>
+    <div id="button">
       <button
         type="button"
         name="nyabtn"
@@ -24,17 +34,23 @@
       >
         nya!
       </button>
-      
+
       <!-- real nya count -->
       <p id="counterElement">nya!: <span id="counterNum">0</span></p>
     </div>
-    
+
+    <div id="links">
+      <a href="https://github.com/pastadudes/pastaya.net">github</a>
+      <a href="https://pastaya.net/colorando">colorando</a>
+      <a href="https://pastaya.net/imgs">images</a>
+      <a href="https://pastaya.net/vids">videos</a>
+    </div>
     <script type="text/javascript">
       let clickCount = 0;
       function btnClicked() {
-        console.log('btnClicked!');
-        var numElement = document.getElementById('counterNum');
-        numElement.textContent = ++clickCount;  // more click count plsss
+        console.log("btnClicked!");
+        var numElement = document.getElementById("counterNum");
+        numElement.textContent = ++clickCount; // more click count plsss
       }
     </script>
   </body>
