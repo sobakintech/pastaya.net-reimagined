@@ -1,4 +1,4 @@
 # pastaya.net
 
-    welcome to pastaya.net
-    i was bored anyways pls fix
+welcome to pastaya.net
+and i was bored anyways pls fix
