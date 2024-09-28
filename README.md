@@ -1,2 +1,2 @@
-> [!NOTE]
-> i do not own this website
+> [!IMPORTANT]
+> this is not my website
