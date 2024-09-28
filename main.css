@@ -1,7 +1,9 @@
-body {
+/* page bg */
+body { 
     background-color: #212226;
 }
 
+/* all text */
 p, h1, h2, h3, a {
     color: white;
     font-family: Inter
@@ -11,8 +13,15 @@ a:hover {
     color: rgb(216, 216, 216);
 }
 
-a {
+#links > a {
     padding: 3px;
+    background-color: #ff9a00;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 #logo {
@@ -22,18 +31,17 @@ a {
 }
 
 #links {
-    position: absolute; /* Allows positioning relative to the container */
-    top: 0; /* Aligns the div at the top */
-    right: 0; /* Aligns the div at the right */
-    background-color: none; /* For visibility, optional */
-    color: white; /* Text color for contrast, optional */
-    padding: 10px; /* Adds some padding for spacing, optional */
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: none;
+    color: white;
+    padding: 10px;
 }
 
 header {
-    position: relative; /* This makes the container the reference point */
+    position: relative;
     width: 100%;
-    background-color: lightgray; /* For visibility, optional */
 }
 
 #credits {
@@ -42,12 +50,12 @@ header {
 }
 
 #nyabtn {
-    background-color: #4CAF50; /* Green background */
-    color: white; /* White text */
-    padding: 8px 15px; /* Padding inside the button */
-    border: none; /* Removes the default border */
-    border-radius: 15px; /* Makes the button rounded */
-    font-size: 16px; /* Sets a comfortable font size */
-    font-weight: bold; /* Makes the text bold */
-    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effects */
+    background-color: #ff9a00;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
