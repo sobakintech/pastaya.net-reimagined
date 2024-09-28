@@ -1,29 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+      </style>      
     <meta charset="UTF-8" />
-    <!-- arrghhh is that a trailing slash -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>pastaya's site</title>
-    <link rel="stylesheet" href="darkmode.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
   </head>
   <body>
+    <header>
+      <div id="links">
+        <a href="https://github.com/pastadudes/pastaya.net">github</a>
+        <a href="/subpages/colorando">colorando</a>
+        <a href="/assets/images">images</a>
+        <a href="/assets/videos">videos</a>
+        <a href="/grainos">download grainos</a>
+        <a href="/steamscam">steam scam lmao</a>
+        <a href="https://github.com/pastadudes/pastaya.net">repo</a>
+      </div>
+    </header>
+    
     <img
-      src="imgs/pastaya.net.png"
-      width="400"
-      height="100"
-      alt="the icon of pastaya.net"
+      src="assets/images/logo.png"
+      alt="logo"
+      id="logo"
     />
     <h1>pastaya's website: Home of Spaghetti since 2024</h1>
-    <h2>i am pastaya, i do coding and no im not an egyptian/italian restaurant</h2>
+    <p>
+      i am pastaya, i do coding and no im not an egyptian/italian restaurant
+    </p>
     <h3>
-      this is my website, and you should pls check out the
-      <a href="https://github.com/pastadudes/pastaya.net">github</a> repo to fix
-      some stuff if ur pro lmao
+      
     </h3>
     <!-- very cool button nya! -->
-     <!-- this is supposed to be a global counter but oh well idk -->
+    <!-- this is supposed to be a global counter but oh well idk -->
     <div id="button">
+      <!-- real nya count -->
+      <p id="counterElement">nya!: <span id="counterNum">0</span></p>
+
       <button
         type="button"
         name="nyabtn"
@@ -33,19 +50,9 @@
       >
         nya!
       </button>
-
-      <!-- real nya count -->
-      <p id="counterElement">nya!: <span id="counterNum">0</span></p>
     </div>
 
-    <div id="links">
-      <a href="https://github.com/pastadudes/pastaya.net">github</a>
-      <a href="/colorando">colorando</a>
-      <a href="/imgs">images</a>
-      <a href="/vids">videos</a>
-      <a href="/grainos">install grainos</a>
-      <a href="/steamscam">steam scam lmao</a>
-    </div>
+    
     <script type="text/javascript">
       let clickCount = 0;
       function btnClicked() {
@@ -54,5 +61,10 @@
         numElement.textContent = ++clickCount; // more click count plsss
       }
     </script>
+    <footer>
+      <p id="credits">
+        css by sobakintech
+      </p>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,53 @@
+body {
+    background-color: #212226;
+}
+
+p, h1, h2, h3, a {
+    color: white;
+    font-family: Inter
+}
+
+a:hover {
+    color: rgb(216, 216, 216);
+}
+
+a {
+    padding: 3px;
+}
+
+#logo {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#links {
+    position: absolute; /* Allows positioning relative to the container */
+    top: 0; /* Aligns the div at the top */
+    right: 0; /* Aligns the div at the right */
+    background-color: none; /* For visibility, optional */
+    color: white; /* Text color for contrast, optional */
+    padding: 10px; /* Adds some padding for spacing, optional */
+}
+
+header {
+    position: relative; /* This makes the container the reference point */
+    width: 100%;
+    background-color: lightgray; /* For visibility, optional */
+}
+
+#credits {
+    color: #b6b6b6;
+    font-size: smaller;
+}
+
+#nyabtn {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 8px 15px; /* Padding inside the button */
+    border: none; /* Removes the default border */
+    border-radius: 15px; /* Makes the button rounded */
+    font-size: 16px; /* Sets a comfortable font size */
+    font-weight: bold; /* Makes the text bold */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effects */
+}
